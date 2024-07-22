@@ -1,0 +1,6 @@
+on: push
+jobs:
+  reusable:
+    uses: weyert/act-reusable-workflows/.github/workflows/test.yml@main
+    with:
+      a: b
